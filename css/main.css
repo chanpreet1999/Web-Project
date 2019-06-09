@@ -1,0 +1,224 @@
+body{
+	font-family: roboto;
+}
+
+.logo{
+	height: 30px;
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 350px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+
+}
+nav{
+	background-color: #021428;
+	margin-left: 2px;
+	font-size: 20px;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	line-height: 4;
+	font-weight: bolder;
+	margin-left: 50px;
+	position: relative;
+	top: -8px;
+	left: 20px;
+}
+
+a:hover{
+	color: yellow;
+}
+
+.active{
+	color: lime;
+}
+
+img#slideshow{
+	border-bottom: 10px solid #021428;
+	margin-bottom: 50px;
+}
+
+section#paragraph{
+	margin: 70px;
+}	
+
+
+/*Services page*/
+h1#page-title{
+	margin-left: 350px;
+	color: #021428;
+}
+
+img#services-slideshow{
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+
+section#services-paragraph{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/*Portfilio page*/
+img#project1-img , img#project2-img , img#project3-img{
+	margin-left: 160px;
+}
+
+p.project1-p , p.project2-p , p.project3-p{
+	margin-right: 50px;
+}
+
+
+div#project1 {
+	
+	margin-left: 970px;	
+	position: absolute;
+	top: 121px;
+	left: 0;
+	width: 466px;
+	margin-right: 30px;
+}
+
+a.project1-button{
+	background: #c51a1a;
+	padding: 10px;
+	position: relative;
+	width: 100px; 
+	height:60px;
+	font-weight: bolder;
+	top: 3px;
+	left: 21px;
+}
+
+section#project2{
+	margin-top: 70px;
+}
+
+
+div#project2{
+	
+	margin-left: 970px;	
+	position: absolute;
+	top: 518px;
+	left: 0;
+	width: 466px;
+	margin-right: 30px;
+}
+
+
+
+a.project2-button{
+	background: #c51a1a;
+	padding: 10px;
+	position: relative;
+	width: 100px; 
+	height:60px;
+	font-weight: bolder;
+	top: 3px;
+	left: 21px;
+}
+
+section#project3{
+	margin-top: 70px;
+}
+
+div#project3{
+	
+	margin-left: 970px;	
+	position: absolute;
+	top: 889px;
+	left: 0;
+	width: 466px;
+	margin-right: 30px;
+}
+
+
+
+a.project3-button{
+	background: #c51a1a;
+	padding: 10px;
+	position: relative;
+	width: 100px; 
+	height:60px;
+	font-weight: bolder;
+	top: 3px;
+	left: 21px;
+}
+
+
+/*ABOUT PAGE*/
+section.about-page{
+	line-height: 1.8;
+}
+
+div#about {
+    margin-left: 760px;
+    top: -576px;
+    position: relative;
+}
+
+/*contact us*/
+form{
+	margin-left: 350px;
+}
+
+
+.form-control{
+	display: block;
+	width:40%;
+	padding: .375rem .75rem;
+	line-height: 1.5;
+	font-size: 1rem;
+	color: #495057;	
+	background-color: #fff;
+	background-clip: padding-box;
+	border:1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color 0.15s ease-in-out , box-shadow .15s ease-in-out;
+
+}
+
+.btn-primary{
+	background-color: #007bff;
+	color: white;
+	border-color: #007bff;
+}
+
+.btn-primary:hover{
+	color: white;
+	background-color: blue;
+	border-color: blue;
+}
+
+.btn{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size:1rem;
+	line-height: 1.5; 
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out , box-shadow .15s ease-in-out;
+
+}
+
+/*footer*/
+footer{
+	background-color: #021428;
+	color: white;
+	margin-top: 100px;
+}
+p#footer-text{
+	line-height: 9;
+	text-align: center;	
+}
